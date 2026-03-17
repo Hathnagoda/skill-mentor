@@ -45,7 +45,6 @@ It allows users to browse mentors, book sessions, manage schedules, and track le
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```text
 skill-mentor/
