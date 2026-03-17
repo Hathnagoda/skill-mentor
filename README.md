@@ -45,6 +45,9 @@ It allows users to browse mentors, book sessions, manage schedules, and track le
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
+
+```text
 skill-mentor/
 │
 ├── backend/                          # Spring Boot backend (Java)
@@ -53,36 +56,36 @@ skill-mentor/
 │       │   └── main/
 │       │       ├── java/
 │       │       │   └── com/skillmentor/backend/
-│       │       │       ├── controller/     # REST Controllers (API endpoints)
-│       │       │       ├── service/        # Business logic layer
+│       │       │       ├── controller/     # REST Controllers
+│       │       │       ├── service/        # Business logic
 │       │       │       ├── repository/     # JPA repositories
-│       │       │       ├── model/          # Entity classes
-│       │       │       └── config/         # Configuration (CORS, etc.)
+│       │       │       ├── model/          # Entities
+│       │       │       └── config/         # Config (CORS)
 │       │       │
 │       │       └── resources/
-│       │           └── application.properties   # App configuration
+│       │           └── application.properties
 │       │
-│       ├── Dockerfile                 # Backend container setup
-│       └── pom.xml                    # Maven dependencies
+│       ├── Dockerfile
+│       └── pom.xml
 │
-├── frontend/                         # React frontend (Vite + TypeScript)
+├── frontend/                         # React frontend
 │   ├── src/
-│   │   ├── components/               # Reusable UI components
-│   │   ├── pages/                    # Application pages (routes)
-│   │   ├── services/                 # API service functions
-│   │   ├── lib/                      # Utility functions (auth, fetch, etc.)
-│   │   ├── types/                    # TypeScript types
-│   │   └── App.tsx                   # Main app entry
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── lib/
+│   │   ├── types/
+│   │   └── App.tsx
 │   │
-│   ├── public/                       # Static assets
+│   ├── public/
 │   ├── index.html
 │   ├── package.json
-│   └── Dockerfile                    # Frontend container setup
+│   └── Dockerfile
 │
-├── docker-compose.yml                # Multi-container orchestration
-├── .gitignore                        # Ignored files
-└── README.md                         # Project documentation
-
+├── docker-compose.yml
+├── .gitignore
+└── README.md
+> This structure follows a modular full-stack architecture separating frontend, backend, and infrastructure.
 
 ## ⚙️ Getting Started
 
