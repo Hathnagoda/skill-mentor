@@ -86,6 +86,8 @@ skill-mentor/
 └── README.md
 > This structure follows a modular full-stack architecture separating frontend, backend, and infrastructure.
 
+
+
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
